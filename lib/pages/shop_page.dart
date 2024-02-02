@@ -57,7 +57,7 @@ class _ShopPageState extends State<ShopPage> {
               Shoe shoe = Shoe(
                   name: 'Air Force 1',
                   price: '100', 
-                  description: 'Nike Air Force 1 is one of the most comfortable shoes', 
+                  description: 'Blue And Black Blend', 
                   imagePath: 'lib/images/a1.png',
                 );
                 return ShoeTile(
@@ -68,6 +68,11 @@ class _ShopPageState extends State<ShopPage> {
 
           ),
 
+        const Padding(padding: EdgeInsets.only(top: 25.0, left: 25, right: 25,),
+          child: Divider(
+            color: Colors.white,
+          ),
+        ),
       ],
     );
   }
